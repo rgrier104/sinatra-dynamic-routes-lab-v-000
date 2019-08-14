@@ -20,7 +20,7 @@ class App < Sinatra::Base
       "#{@phrase}"
       n += 1
     end
-      
+
   end
 
 end
