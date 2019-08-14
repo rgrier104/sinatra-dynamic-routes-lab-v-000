@@ -17,6 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @phrase_array = []
     @number.times {@phrase_array << @phrase }
+    "#{@phrase_array}"
 
   end
 
